@@ -7,6 +7,8 @@
  #title {
    background: #ff4c68;
    font-weight: 400;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .container-fluid {
@@ -54,8 +56,8 @@
    width: 60%;
    position: absolute;
    right: 25%;
-   /* -webkit-transition: all 5s;
-   transition: all */
+   -webkit-transition: all 5s;
+   transition: all
  }
 
  /* .slide-img:hover {
@@ -75,6 +77,8 @@
    font-family: 'Ubuntu', sans-serif;
    font-size: 2rem;
    font-weight: bold;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .nav-item a {
@@ -99,6 +103,8 @@
    z-index: 1;
    padding: 7% 15%;
    background: #fff;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .feature-box {
@@ -120,10 +126,14 @@
  .icon {
    color: #ef8172;
    margin-bottom: 1rem;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .icon:hover {
    color: #ff4c68;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  /* Testimonials */
@@ -132,6 +142,8 @@
    text-align: center;
    background: #ef8172;
    color: #fff;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .testimonial-image {
@@ -148,6 +160,8 @@
    background: #ef8172;
    text-align: center;
    padding-bottom: 3%;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .press-logo {
@@ -170,6 +184,8 @@
  #pricing {
    padding: 100px;
    text-align: center;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  .pricing-column {
@@ -181,6 +197,9 @@
    background: #ff4c68;
    padding: 2% 15%;
    color: #fff;
+   -webkit-transition: all 1s;
+   transition: all 1s;
+
  }
 
  #cta h3 {
@@ -191,6 +210,12 @@
    text-align: center;
  }
 
+ #cta button {
+   display: block;
+   max-width: 300px;
+   margin: auto;
+ }
+
  .social-icon {
    margin: 20px 10px;
  }
@@ -199,6 +224,8 @@
    background: #585757;
    padding: 1% 0;
    text-align: center;
+   -webkit-transition: all 1s;
+   transition: all 1s;
  }
 
  #footer p {
